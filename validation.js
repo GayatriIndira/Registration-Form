@@ -1,4 +1,6 @@
 require('validator');
+// const {React,useState} = require('react');
+
 const isValidEmail = (email) => {
  
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
